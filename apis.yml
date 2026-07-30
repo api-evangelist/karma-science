@@ -1,8 +1,26 @@
 aid: karma-science
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/karma-science.png
 name: Karma Science
-description: 'Karma Science is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Karma (Karma Science, karmanow.com) is a consumer shopping-assistant
+  platform delivered as a browser extension and mobile app that helps people shop
+  smarter. Founded in 2015, it serves roughly 6.5 million users with automatic coupon
+  finding at checkout, price-drop and back-in-stock tracking, cross-retailer wishlists,
+  and cash-back rewards across major merchants including Amazon, Apple, Nike, Target,
+  and Nordstrom. The company also offers an Embedded Loyalty and partnerships program
+  for retailers. Karma is a Kleiner Perkins-backed consumer company; as surfaced through
+  the API Evangelist enrichment pipeline it publishes consumer product surfaces (apps,
+  help center, blog) but no public developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/karma-science/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Shopping
+- E-commerce
+- Coupons
+- Cash Back
+- Loyalty
+- Browser Extension
 apis: []
+common:
+- type: DomainSecurity
+  url: security/karma-science-domain-security.yml
+- type: Website
+  url: https://karmanow.com
+- type: HelpCenter
+  url: https://help.karmanow.com
+- type: Blog
+  url: https://www.karmanow.com/the-blog
+- type: TermsOfService
+  url: https://karmanow.com/terms
+- type: PrivacyPolicy
+  url: https://karmanow.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
